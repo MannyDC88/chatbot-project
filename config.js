@@ -1,7 +1,7 @@
 // Configuration file for the chatbot
 const CONFIG = {
     // API endpoint points to our local Flask server
-    API_ENDPOINT: 'http://localhost:8000/chat',
+    API_ENDPOINT: '/chat',
 
     // Model to use
     MODEL: 'claude-sonnet-4-6',

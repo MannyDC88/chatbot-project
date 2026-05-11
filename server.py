@@ -1,26 +1,47 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
 from anthropic import Anthropic
 from dotenv import load_dotenv
 import os
+import json
 
-load_dotenv(dotenv_path=r"C:\Users\ManuelCastillo\AppData\Local\Programs\IBM Bob\.env", override=True)
+load_dotenv()
 
 app = Flask(__name__, static_folder=".", static_url_path="")
 CORS(app)
 
 client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
+SYSTEM_PROMPT = "You are a helpful, friendly AI assistant. Provide clear, concise, and accurate responses."
+
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.json
-    message = client.messages.create(
-        model="claude-opus-4-5",
-        max_tokens=1000,
-        messages=[{"role": "user", "content": data["message"]}]
+    messages = data.get("messages", [])
+
+    def generate():
+        with client.messages.stream(
+            model="claude-sonnet-4-6",
+            max_tokens=1024,
+            system=[{
+                "type": "text",
+                "text": SYSTEM_PROMPT,
+                "cache_control": {"type": "ephemeral"}
+            }],
+            messages=messages
+        ) as stream:
+            for text in stream.text_stream:
+                yield f"data: {json.dumps({'text': text})}\n\n"
+        yield "data: [DONE]\n\n"
+
+    return Response(
+        stream_with_context(generate()),
+        mimetype="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no"
+        }
     )
-    return jsonify({"response": message.content[0].text})
 
 if __name__ == "__main__":
     app.run(port=8000)
-    

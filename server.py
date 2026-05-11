@@ -1,3 +1,4 @@
+
 from flask import Flask, request, jsonify, Response, stream_with_context
 from flask_cors import CORS
 from anthropic import Anthropic
@@ -9,9 +10,10 @@ load_dotenv()
 
 app = Flask(__name__, static_folder=".", static_url_path="")
 CORS(app)
-
+@app.route("/")
+def index():
+    return app.send_static_file("index.html")
 client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-
 SYSTEM_PROMPT = "You are a helpful, friendly AI assistant. Provide clear, concise, and accurate responses."
 
 @app.route("/chat", methods=["POST"])

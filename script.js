@@ -54,11 +54,40 @@ class Chatbot {
         } catch (error) {
             console.error('Error:', error);
             this.removeLoading(loadingElement);
-            this.addMessage('Sorry, I encountered an error. Please try again.', 'bot', true);
+            this.addMessage(this.getErrorMessage(error), 'bot', true);
         } finally {
             this.setInputState(true);
             this.userInput.focus();
         }
+    }
+
+    getErrorMessage(error) {
+        // Network/connection errors
+        if (error.message.includes('Failed to fetch') || error.message.includes('NetworkError')) {
+            return "I'm having trouble connecting to our service right now. Please check your internet connection and try again. If the problem persists, you can call us directly at (555) 123-4567.";
+        }
+        
+        // Server errors (5xx)
+        if (error.message.includes('HTTP error 5')) {
+            return "Our chat service is temporarily unavailable. We apologize for the inconvenience! Please try again in a few moments, or call us at (555) 123-4567 for immediate assistance.";
+        }
+        
+        // API rate limiting or authentication errors (4xx)
+        if (error.message.includes('HTTP error 429')) {
+            return "We're experiencing high volume right now. Please wait a moment and try again. For urgent matters, call us at (555) 123-4567.";
+        }
+        
+        if (error.message.includes('HTTP error 401') || error.message.includes('HTTP error 403')) {
+            return "There's a technical issue with our chat service. Please call us at (555) 123-4567 and we'll be happy to help you right away!";
+        }
+        
+        // Timeout errors
+        if (error.message.includes('timeout')) {
+            return "The request is taking longer than expected. Please try again. If you need immediate help, call us at (555) 123-4567.";
+        }
+        
+        // Generic fallback
+        return "I'm having trouble processing your request right now. Please try again in a moment. If you need immediate assistance, call us at (555) 123-4567 or email support@coolbreezeac.com.";
     }
 
     addMessage(text, sender, isError = false) {

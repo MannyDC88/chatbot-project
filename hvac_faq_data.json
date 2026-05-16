@@ -1,0 +1,169 @@
+{
+  "company_name": "CoolBreeze HVAC Solutions",
+  "company_tagline": "Your Comfort, Our Priority",
+  "faq_entries": [
+    {
+      "id": 1,
+      "category": "AC Repair",
+      "question": "How do I know if my AC needs repair?",
+      "answer": "Common signs include: weak airflow, warm air blowing from vents, unusual noises (grinding, squealing, or banging), strange odors, frequent cycling on/off, high humidity indoors, water leaks around the unit, or a sudden spike in energy bills. If you notice any of these issues, contact CoolBreeze HVAC Solutions for a diagnostic inspection."
+    },
+    {
+      "id": 2,
+      "category": "AC Repair",
+      "question": "What are the most common AC problems?",
+      "answer": "The most frequent issues we see are: refrigerant leaks, frozen evaporator coils, dirty air filters, faulty thermostats, clogged drain lines, worn fan belts, electrical control failures, and compressor problems. Many of these can be prevented with regular maintenance."
+    },
+    {
+      "id": 3,
+      "category": "AC Repair",
+      "question": "Can I repair my AC myself?",
+      "answer": "While you can handle simple tasks like changing air filters or cleaning around the outdoor unit, most AC repairs require professional expertise and specialized tools. DIY repairs can void warranties, cause further damage, or pose safety risks. CoolBreeze technicians are certified and insured to handle all repair needs safely."
+    },
+    {
+      "id": 4,
+      "category": "AC Repair",
+      "question": "How long does a typical AC repair take?",
+      "answer": "Most repairs take 1-3 hours depending on the issue. Simple fixes like thermostat replacement or filter changes take under an hour. More complex repairs like compressor replacement or refrigerant leak repairs may take 2-4 hours. Our technician will provide a time estimate after diagnosing the problem."
+    },
+    {
+      "id": 5,
+      "category": "Maintenance",
+      "question": "How often should I have my AC serviced?",
+      "answer": "We recommend professional maintenance twice a year - once in spring before cooling season and once in fall before heating season. Regular maintenance extends equipment life, improves efficiency, prevents breakdowns, and maintains warranty coverage. CoolBreeze offers convenient maintenance plans with scheduled visits."
+    },
+    {
+      "id": 6,
+      "category": "Maintenance",
+      "question": "What does an AC maintenance visit include?",
+      "answer": "Our comprehensive maintenance includes: inspecting and cleaning coils, checking refrigerant levels, testing thermostat accuracy, lubricating moving parts, tightening electrical connections, inspecting condensate drain, replacing or cleaning filters, checking system controls, measuring airflow, and testing overall system performance. You'll receive a detailed report after each visit."
+    },
+    {
+      "id": 7,
+      "category": "Maintenance",
+      "question": "How often should I change my air filter?",
+      "answer": "Standard 1-inch filters should be changed every 1-3 months depending on usage, pets, and allergies. Thicker 4-inch filters last 6-12 months. Check monthly and replace when visibly dirty. Homes with pets, allergies, or high usage need more frequent changes. CoolBreeze can set up filter delivery reminders for you."
+    },
+    {
+      "id": 8,
+      "category": "Maintenance",
+      "question": "What happens if I skip regular maintenance?",
+      "answer": "Skipping maintenance leads to: reduced efficiency (higher energy bills), shortened equipment lifespan, more frequent breakdowns, voided warranties, poor indoor air quality, and potentially costly emergency repairs. Regular maintenance typically saves 15-20% on energy costs and prevents 95% of major breakdowns."
+    },
+    {
+      "id": 9,
+      "category": "Pricing",
+      "question": "How much does AC repair cost?",
+      "answer": "Repair costs vary by issue: diagnostic fee $89-$129, minor repairs $150-$400, moderate repairs $400-$800, major repairs $800-$2000+. Common repairs: thermostat replacement $150-$300, capacitor replacement $150-$400, refrigerant recharge $200-$600, compressor replacement $1200-$2500. CoolBreeze provides free estimates before any work begins."
+    },
+    {
+      "id": 10,
+      "category": "Pricing",
+      "question": "Do you offer financing options?",
+      "answer": "Yes! CoolBreeze partners with leading financing companies to offer flexible payment plans with approved credit. Options include 0% interest for 12 months, low monthly payments for 24-60 months, and same-day approval. We also accept all major credit cards, checks, and cash."
+    },
+    {
+      "id": 11,
+      "category": "Pricing",
+      "question": "Are there any hidden fees?",
+      "answer": "No hidden fees at CoolBreeze! We provide transparent, upfront pricing before starting any work. Our quotes include labor, parts, and disposal fees. The only additional charges would be for unexpected issues discovered during repair (which we'll discuss with you first) or after-hours emergency service premiums."
+    },
+    {
+      "id": 12,
+      "category": "Pricing",
+      "question": "Do you offer senior or military discounts?",
+      "answer": "Absolutely! CoolBreeze offers 10% off service calls for seniors (65+) and active/retired military personnel. We also run seasonal promotions and offer discounts for maintenance plan members. Ask about current specials when scheduling your appointment."
+    },
+    {
+      "id": 13,
+      "category": "Scheduling",
+      "question": "How quickly can you come out for a repair?",
+      "answer": "We offer same-day service for most requests when you call before 2 PM on weekdays. Emergency service is available 24/7 including weekends and holidays. During peak season (June-August), we recommend scheduling 1-2 days in advance for non-emergency repairs. Maintenance appointments can typically be scheduled within 3-5 business days."
+    },
+    {
+      "id": 14,
+      "category": "Scheduling",
+      "question": "What are your service hours?",
+      "answer": "Regular service hours: Monday-Friday 7 AM - 7 PM, Saturday 8 AM - 5 PM. Emergency service available 24/7/365 for urgent repairs. After-hours and weekend emergency calls include a premium service fee. You can schedule appointments online, by phone, or through our mobile app."
+    },
+    {
+      "id": 15,
+      "category": "Scheduling",
+      "question": "Do I need to be home during the service call?",
+      "answer": "For initial diagnostics and repairs requiring access to indoor units or thermostats, yes. For outdoor unit work only, we can service while you're away if you provide access instructions. We'll call 30 minutes before arrival and text when we're on the way. All technicians are background-checked and uniformed."
+    },
+    {
+      "id": 16,
+      "category": "Scheduling",
+      "question": "Can I schedule a specific time window?",
+      "answer": "Yes! We offer 2-hour appointment windows (e.g., 9-11 AM, 1-3 PM) and will call 30 minutes before arrival. For an additional fee, we offer 1-hour windows or exact appointment times. Maintenance plan members receive priority scheduling and preferred time slots."
+    },
+    {
+      "id": 17,
+      "category": "General",
+      "question": "Are your technicians licensed and insured?",
+      "answer": "Yes! All CoolBreeze technicians are EPA-certified, state-licensed, background-checked, and drug-tested. We carry full liability insurance and workers' compensation. Our technicians receive ongoing training on the latest HVAC technologies and customer service. You'll receive your technician's name and photo before they arrive."
+    },
+    {
+      "id": 18,
+      "category": "General",
+      "question": "Do you service all AC brands?",
+      "answer": "Yes! CoolBreeze services all major brands including Carrier, Trane, Lennox, Rheem, Goodman, York, American Standard, Bryant, Daikin, and more. We stock common parts for most brands and can order specialty parts typically within 24-48 hours."
+    },
+    {
+      "id": 19,
+      "category": "General",
+      "question": "What areas do you service?",
+      "answer": "CoolBreeze serves the entire metro area and surrounding counties within a 50-mile radius of our main office. This includes residential and commercial properties. Call us to confirm service availability in your specific location. We're expanding our service area regularly!"
+    },
+    {
+      "id": 20,
+      "category": "General",
+      "question": "Do you offer warranties on repairs?",
+      "answer": "Yes! All CoolBreeze repairs include a 1-year labor warranty and parts are covered by manufacturer warranties (typically 1-10 years depending on the part). Maintenance plan members receive extended 2-year labor warranties. We stand behind our work 100%."
+    },
+    {
+      "id": 21,
+      "category": "Emergency Service",
+      "question": "What qualifies as an AC emergency?",
+      "answer": "AC emergencies include: complete system failure during extreme heat, refrigerant leaks, electrical issues causing safety hazards, water flooding from the unit, strange burning smells, or any situation threatening health/safety. For non-emergencies, regular service appointments are more cost-effective than emergency calls."
+    },
+    {
+      "id": 22,
+      "category": "Maintenance",
+      "question": "What's included in your maintenance plans?",
+      "answer": "CoolBreeze maintenance plans include: 2 annual tune-ups (spring & fall), priority scheduling, 15% discount on repairs, no overtime charges, extended warranties, free filter delivery, and 24/7 emergency service. Plans start at $199/year for single systems. Multi-system and commercial plans available."
+    },
+    {
+      "id": 23,
+      "category": "AC Repair",
+      "question": "Should I repair or replace my old AC unit?",
+      "answer": "Consider replacement if: unit is 10-15+ years old, repairs cost more than 50% of replacement, frequent breakdowns, rising energy bills, or uses R-22 refrigerant (being phased out). Consider repair if: unit is under 10 years old, single issue, well-maintained, and repair costs are reasonable. Our technicians provide honest recommendations based on your situation."
+    },
+    {
+      "id": 24,
+      "category": "Pricing",
+      "question": "Why do AC repairs cost so much?",
+      "answer": "AC repair costs reflect: specialized training and certification, expensive diagnostic equipment, quality replacement parts, liability insurance, vehicle maintenance, and expertise to diagnose complex issues. CoolBreeze invests in ongoing technician training and stocks quality parts to ensure reliable, long-lasting repairs. We provide detailed explanations of all costs upfront."
+    },
+    {
+      "id": 25,
+      "category": "General",
+      "question": "How can I improve my AC's efficiency?",
+      "answer": "Tips to boost efficiency: change filters regularly, keep outdoor unit clear of debris, use a programmable thermostat, seal air leaks around windows/doors, add insulation, use ceiling fans, close blinds during peak sun, schedule regular maintenance, and upgrade to a high-efficiency system if yours is old. CoolBreeze offers free energy audits with maintenance visits."
+    }
+  ],
+  "contact_info": {
+    "phone": "555-COOL-NOW (555-266-5669)",
+    "email": "service@coolbreezehvac.com",
+    "website": "www.coolbreezehvac.com",
+    "hours": "24/7 Emergency Service Available",
+    "service_area": "Metro area and surrounding counties (50-mile radius)"
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-05-15",
+    "total_entries": 25,
+    "categories": ["AC Repair", "Maintenance", "Pricing", "Scheduling", "General", "Emergency Service"]
+  }
+}
